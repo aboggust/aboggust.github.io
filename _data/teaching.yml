@@ -1,0 +1,16 @@
+- name: "6.009: Fundamentals of Programming"
+  role: Graduate Teaching Assistant
+  professors:
+    - anabell
+    - duaneboning
+    - maxgoldman
+    - adamhartz
+  semester: Spring 2020
+  description: Taught fundamental programming concepts in Python to 400 students, in-person and remotely. Led a team of over 100 undergraduate TAs to conduct daily office hours.
+- name: "6.009: Fundamentals of Programming"
+  role: Graduate Teaching Assistant
+  professors:
+    - srinidevadas
+    - erikdemaine
+  semester: Fall 2019
+  description: Developed new teaching materials, laboratory assignments, and exams for a course of 400 students. Delivered weekly recitations teaching fundamental programming concepts to a group of 30 students. Supervised weekly office hours.

@@ -1,0 +1,74 @@
+hr {
+    margin: -10px 0 5px 0;
+    width: 3rem;
+    height: 2px;
+    border: none;
+    background-color: $dark-grey-2
+}
+
+#publications {
+    row-gap: calc(6 * $spacing);
+}
+
+#publications .section-title {
+    margin-bottom: -10px;
+}
+
+.publication {
+    display: flex;
+    flex-direction: row;
+    column-gap: calc(2 * $spacing);
+    border-radius: $border-radius;
+    width: 100%;
+    max-width: 950px;
+    transition: all .2s ease-in-out;
+}
+
+.publication-author, .publication-venue, .publication-link, .publication-award {
+    font-size: var(--accent-font-size);
+}
+
+.publication > * {
+    font-size: var(--accent-font-size);
+}
+
+.publication-title {
+    color: $dark-grey-2;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.publication-authors {
+    margin-top: 0;
+}
+
+.publication-award {
+    color: $award-color;
+}
+
+.publication-img {
+    height: $img-height;
+    border: solid $light-grey-4 1px;
+    border-radius: $border-radius;
+}
+
+.publication-info { 
+    display: flex;
+    flex-direction: column;
+}
+
+a.publication-author:hover {
+    border: solid $link-color 0;
+    border-bottom-width: 1.5px;
+}
+
+.publication-links > .button {
+    a {
+        color: $dark-grey-1 !important;
+    }
+}
+
+.publication-links > .button:hover {
+    background-color: $light-grey-5;
+}

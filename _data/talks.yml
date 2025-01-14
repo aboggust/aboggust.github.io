@@ -1,0 +1,39 @@
+- title: Compress and Compare
+  talks:
+    - venue: vis
+      date: 2024-10-17
+- title: How mechanistic interpretability can help keep AI safe and beneficial
+  talks:
+    - venue: nemi
+      date: 2024-08-19
+- title: Saliency Cards
+  talks:
+    - venue: IBM
+      date: 2023-07-01 # Not sure of the day
+    - venue: facct
+      date: 2023-06-12
+    - venue: Apple
+      date: 2023-06-01 # Not sure of the day
+- title: Human-Aligned Machine Learning
+  talks:
+    - venue: University of Konstanz
+      date: 2022-07-01 # Not sure of the day
+    - venue: MIT EECS Graduate Women of Course 6 Summit
+      date: 2021-11-01 # Not sure of the day
+- title: Shared Interest
+  talks:
+    - venue: mit-horizons
+      date: 2022-06-29
+      url: https://vimeo.com/725696608/7f5004019f
+    - venue: chi
+      date: 2022-05-06
+    - venue: neurips-demo
+      date: 2020-12-08
+    - venue: visxai
+      date: 2020-10-26
+- title: The Embedding Comparator
+  talks:
+    - venue: iui
+      date: 2022-03-22
+    - venue: CSAIL-MSR Trustworthy and Robust AI Workshop
+      date: 2019-11-01 # Not sure of the day

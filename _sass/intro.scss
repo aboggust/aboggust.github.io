@@ -1,0 +1,47 @@
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+}
+
+#intro-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: calc(10 * $spacing);
+    margin-top: calc(4 * $spacing);
+}
+
+#intro-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: calc(2 * $spacing);
+}
+
+#intro-headshot-wrapper {
+    width: 200px;
+}
+
+#intro-headshot {
+    width: 100%;
+    aspect-ratio: 1.06;
+    object-fit: cover;
+}
+
+#intro-title {
+    margin-top: 0;
+}
+
+.intro-links {
+    margin-top: $spacing;
+    justify-content: space-between;
+    .button {
+        margin-right: 0;
+        width: 11%;
+    }
+}
+
+#email { 
+    width: 100%;
+}

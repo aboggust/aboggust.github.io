@@ -1,0 +1,24 @@
+cv:
+  name: CV
+  icon: cv
+  url: http://angieboggust.com/cv_angieboggust.pdf
+  
+twitter:
+  name: Twitter
+  icon: twitter
+  url: https://twitter.com/angie_boggust
+
+scholar:
+  name: Google Scholar
+  icon: scholar
+  url: https://scholar.google.com/citations?user=pQd1HSK5lzEC
+
+github:
+  name: GitHub
+  icon: github
+  url: https://github.com/aboggust
+
+linkedin:
+  name: LinkedIn
+  icon: linkedin
+  url: https://www.linkedin.com/in/angieboggust/

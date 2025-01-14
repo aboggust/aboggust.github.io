@@ -1,0 +1,95 @@
+--- 
+--- 
+
+$body-font: 'Roboto', sans-serif;
+$heading-font: 'Roboto', sans-serif;
+$title-font: 'Roboto Condensed', sans-serif;
+
+$title-font-size: 32pt;
+$subtitle-font-size: 22pt;
+$heading-font-size: 18pt;
+$body-font-size: 12pt;
+$accent-font-size: 9pt;
+
+$title-font-weight: 800;
+$heading-font-weight: 400;
+$body-font-weight: 400;
+
+$border-radius: 4px;
+$spacing: 4px;
+
+$img-height: 120px;
+
+$light-grey-1: #F9F9F9;
+$light-grey-2: #f3f3f3;
+$light-grey-3: #eaeaea;
+$light-grey-4: #dddddd;
+$light-grey-5: #CACACA;
+$dark-grey-1: #6d6d6d;
+$dark-grey-2: #3D3E41;
+$dark-grey-3: #a5a5a5;
+
+$background-color: white;
+$primary-font-color: black;
+$accent-font-color: $dark-grey-1;
+
+$link-color: #588ad1ff;
+$award-color: #E7B100;
+
+
+html {
+    --title-font-size: 32pt;
+    --heading-font-size: 18pt;
+    --body-font-size: 13pt;
+    --accent-font-size: 11pt;
+}
+
+
+@import "main";
+@import "intro";
+@import "publications";
+@import "cv";
+@import "news";
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 650px) {
+    
+    html {
+        --title-font-size: 20pt;
+        --subtitle-font-size: 14pt;
+        --heading-font-size: 12pt;
+        --body-font-size: 12pt;
+        --accent-font-size: 10pt;
+    }
+
+    body {
+        margin: 2em;
+    }
+
+    .section {
+    }
+
+    .publication {
+        flex-direction: column;
+        row-gap: calc(2 * $spacing);
+        align-items: center;
+    }
+
+    #intro-description {
+        flex-direction: column-reverse;
+    }
+
+    #intro-headshot-wrapper {
+        max-width: 218px;
+        margin-bottom: calc(3 * $spacing);
+    }
+
+    #intro, #intro-description {
+        align-items: center;
+    }
+
+    .news {
+        grid-template-columns: 110px auto;
+    }
+}

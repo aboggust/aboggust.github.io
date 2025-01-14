@@ -1,0 +1,99 @@
+- organization: Massachusetts Institute of Technology
+  type: academic
+  group: Visualization Group
+  lab: Computer Science and Artificial Intelligence Laboratory
+  role: Research Assistant
+  mentors: 
+    - arvindsatya
+  startdate: 2020-09-01
+  description: Investigating methods to interpret and visualize machine learning model behavior and uncertainty.
+
+- organization: Massachusetts Institute of Technology
+  type: academic
+  group: Spoken Language Systems Group
+  lab: Computer Science and Artificial Intelligence Laboratory
+  role: Research Assistant
+  mentors: 
+    - jimglass
+    - daveharwath
+  startdate: 2018-06-01
+  enddate: 2020-06-01
+  description: Explored self-supervised machine learning methods capable of learning semantic concepts from unlabeled instructional videos.
+
+- organization: Massachusetts Institute of Technology
+  type: academic
+  group: Spoken Language Systems Group
+  lab: Computer Science and Artificial Intelligence Laboratory
+  role: Undergraduate Researcher
+  mentors: 
+    - jimglass
+    - tukaalhanai
+  startdate: 2016-06-01
+  enddate: 2018-06-01
+  description: Applied deep learning and regression techniques to detect early stage Alzheimer’s Disease and clinical depression from patient speech.
+
+- organization: Leiden University
+  type: academic
+  group: Institute of Advanced Computer Science
+  role: Visiting Researcher
+  mentors: 
+    - askeplaat
+    - siegfriednijssen
+  startdate: 2016-01-01
+  enddate: 2016-01-31
+  description: Investigated decision tree models to predict a patient’s blood transfusion need from clinical time-series data to assist ICU physicians in making patient-care decisions.
+
+- organization: Massachusetts Institute of Technology
+  type: academic
+  group: Paul F. Glenn Center for Biology of Aging Research
+  role: Undergraduate Researcher
+  mentors:
+    - leonardguarente
+    - christinglorioso
+  startdate: 2015-05-15
+  enddate: 2016-01-01
+  description: Designed statistical models and data visualizations to investigate correlations between gene expression and the onset of Alzheimer’s Disease.
+
+- organization: Apple
+  type: industry
+  group: Artificial Intelligence and Machine Learning Visualization Group
+  role: Research Intern
+  mentors:
+    - fredhohman
+    - yannickassogba
+    - donghaoren
+    - dominikmoritz
+  startdate: 2023-05-22
+  enddate: 2023-09-29
+  description: Designed visual analytics tools to help model compression engineers and researchers evaluate, monitor, and improve their model compression strategies.
+
+- organization: IBM Research
+  type: industry
+  group: Visual AI Lab
+  role: Research Intern
+  mentors:
+    - hendrikstrobelt
+  startdate: 2022-05-23
+  enddate: 2022-08-12
+  description: Researched visual and algorithmic methods to communicate machine learning model uncertainty to human stakeholders.
+
+- organization: IBM Research
+  type: industry
+  group: Visual AI Lab
+  role: Research Intern
+  mentors:
+    - hendrikstrobelt
+  startdate: 2021-05-24
+  enddate: 2021-08-13
+  description: Synthesized a framework to analyze, compare, and document saliency methods.
+
+- organization: IBM Research
+  type: industry
+  group: Visual AI Lab
+  role: Research Intern
+  mentors:
+    - hendrikstrobelt
+  startdate: 2020-05-30
+  enddate: 2020-08-21
+  description: Developed methods for large-scale analysis of model behavior by quantifying the relationship between model and human decision making.
+

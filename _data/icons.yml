@@ -1,0 +1,17 @@
+project: <i class="fa-solid fa-link"></i>
+paper: <i class="fa-solid fa-file-lines"></i>
+video: <i class="fa-brands fa-youtube"></i>
+dataset: <i class="fa-solid fa-share-nodes"></i>
+code: <i class="fa-solid fa-code"></i>
+news: <i class="fa-solid fa-newspaper"></i>
+demo: <i class="fa-solid fa-laptop"></i>
+award: <i class="fa-solid fa-award"></i>
+cv: <b>CV</b>
+email: <i class="fa-solid fa-envelope"></i>
+twitter: <i class="fa-brands fa-x-twitter"></i>
+scholar: <i class="fa-solid fa-graduation-cap"></i>
+linkedin: <i class="fa-brands fa-linkedin-in"></i>
+github: <i class="fa-brands fa-github"></i>
+orcid: <i class="fa-brands fa-orcid"></i>
+poster: <i class="fa-solid fa-person-chalkboard"></i>
+article: <i class="fa-solid fa-newspaper"></i>

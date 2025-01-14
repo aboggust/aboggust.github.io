@@ -1,0 +1,32 @@
+- title: Researchers teach an AI to write better chart captions
+  author: Adam Zewe
+  publisher: MIT News
+  links: 
+    - name: Article
+      icon: article
+      url: https://news.mit.edu/2023/researchers-chart-captions-ai-vistext-0630
+  date: 2023-06-30
+- title: New tool helps people choose the right method for evaluating AI models
+  author: Adam Zewe
+  publisher: MIT News
+  links: 
+    - name: Article
+      icon: article
+      url: https://news.mit.edu/2023/new-tool-helps-people-choose-right-method-evaluating-ai-models-0531
+  date: 2023-05-31
+- title: New Test Compares AI Reasoning With Human Thinking
+  author: Charles Q. Choi
+  publisher: IEEE Spectrum
+  links: 
+    - name: Article
+      icon: article
+      url: https://spectrum.ieee.org/trustworthy-ai
+  date: 2022-04-27
+- title: Does this artificial intelligence think like a human?
+  author: Adam Zewe
+  publisher: MIT News
+  links: 
+    - name: Article
+      icon: article
+      url: https://news.mit.edu/2022/does-this-artificial-intelligence-think-human-0406
+  date: 2022-04-06

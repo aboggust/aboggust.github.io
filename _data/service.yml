@@ -1,0 +1,44 @@
+- name: visxai
+  role: program committee
+  years:
+    - 2021
+- name: visxai
+  role: organizer
+  years:
+    - 2022
+    - 2023
+    - 2024
+- name: neurips
+  role: reviewer
+  years:
+    - 2021
+    - 2022
+    - 2024
+- name: icml
+  role: reviewer
+  years: 
+    - 2022
+    - 2023
+    - 2024
+- name: chi
+  role: reviewer
+  years: 
+    - 2022
+    - 2024
+    - 2025
+- name: vis
+  role: reviewer
+  years:
+    - 2024
+- name: acm
+  role: member
+- name: ieee
+  role: member
+- name: vis
+  role: student volunteer
+  years:
+    - 2024
+- name: neurips-tsta
+  role: program committee
+  years:
+    - 2024

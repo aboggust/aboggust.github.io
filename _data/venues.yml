@@ -1,0 +1,56 @@
+acl:
+  full: The Annual Meeting of the Association for Computational Linguistics (ACL)
+  short: ACL
+facct:
+  full: ACM Conference on Fairness, Accountability, and Transparency (FAccT)
+  short: FAccT
+chi:
+  full: ACM Human Factors in Computing Systems (CHI)
+  short: CHI
+arxiv:
+  full: arXiv
+  short: arXiv
+iui:
+  full: ACM Intelligent User Interfaces (IUI)
+  short: IUI
+interspeech:
+  full: INTERSPEECH Conference
+  short: INTERSPEECH
+neurips:
+  full: Neural Information Processing Systems (NeurIPS)
+  short: NeurIPS
+icml:
+  full: International Conference on Machine Learning (ICML)
+  short: ICML
+vis:
+  full: IEEE Transactions on Visualization & Computer Graphics (VIS)
+  short: VIS
+visxai:
+  full: IEEE VIS Workshop of Visualization for AI Explainability (VISxAI)
+  short: VISxAI
+icml-ai-hci-workshop:
+  full: International Conference on Machine Learning (ICML) AI & HCI Workshop
+icml-hill-workshop:
+  full: International Conference on Machine Learning (ICML) Workshop on Human in the Loop Learning (HILL)
+neurips-demo:
+  full: Neural Information Processing Systems (NeurIPS) Demonstration
+cvrp-sightsound-workshop:
+  full: Computer Vision and Pattern Recognition (CVPR) Sight and Sound Workshop
+acm:
+  full: Association for Computing Machinery (ACM)
+  short: ACM
+ieee:
+  full: Institute of Electrical and Electronics Engineers (IEEE)
+  short: IEEE
+nemi:
+  full: New England Mechanistic Interpretability Workshop
+  short: NEMI
+neurips-tsta:
+  full: Neural Information Processing Systems (NeurIPS) Towards Safe & Trustworthy Agents Workshop
+  short: NeurIPS-TSTA
+mit-horizons:
+  full: MIT Open Learning Horizons
+  short: MIT Horizons
+eccv-excv:
+  full: European Conference on Computer Vision (ECCV) Explainable Computer Vision Workshop
+  short: ECCV eXCV

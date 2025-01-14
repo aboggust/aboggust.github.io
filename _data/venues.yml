@@ -57,3 +57,6 @@ eccv-excv:
 cvpr:
   full: IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)
   short: CVPR
+tvcg:
+  full: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  short: TVCG

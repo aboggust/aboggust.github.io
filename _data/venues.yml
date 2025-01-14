@@ -54,3 +54,6 @@ mit-horizons:
 eccv-excv:
   full: European Conference on Computer Vision (ECCV) Explainable Computer Vision Workshop
   short: ECCV eXCV
+cvpr:
+  full: IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)
+  short: CVPR

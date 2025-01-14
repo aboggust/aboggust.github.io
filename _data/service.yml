@@ -38,7 +38,11 @@
   role: student volunteer
   years:
     - 2024
-- name: neurips-tsta
-  role: program committee
+# - name: neurips-tsta
+#   role: program committee
+#   years:
+#     - 2024
+- name: cvpr
+  role: reviewer
   years:
-    - 2024
+    - 2025

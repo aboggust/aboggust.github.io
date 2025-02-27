@@ -1,28 +1,28 @@
 - name: helenbang
-  school: MIT
+  school: MIT EECS
   degree: MEng
-  graduation-date: 2025-05-30
-  duration: FA 2022–Present
+  graduation-date: 2025-05-31
+  duration: Fa 2022–Sp 2025
 - name: zoedesimone
-  school: MIT
-  degree: SMArchS
-  graduation-date: 2024-05-30
+  school: MIT EECS
+  degree: MSc
+  graduation-date: 2024-05-31
   current-position: MIT EECS PhD Student
-  duration: SU 2023–SP 2024
+  duration: Su 2023–Sp 2024
 - name: moulinkaspar
-  school: MIT
+  school: MIT EECS
   degree: MEng
   graduation-date: 2024-05-30
   current-position: Business Analyst at McKinsey & Company
-  duration: SU 2023–SP 2024
+  duration: Su 2023–Sp 2024
 - name: bentang
-  school: MIT
-  degree: M.Sc.
+  school: MIT EECS
+  degree: MSc
   graduation-date: 2023-05-31
   current-position: Research Engineer at Scaled Cognition
-  duration: FA 2021–SP 2023
+  duration: Fa 2021–Sp 2023
 - name: helenavasconcelos
   school: Stanford University
   degree: BS
-  graduation-date: 2025-06-15
-  duration: SU 2024–Present
+  graduation-date: 2025-05-30
+  duration: Summer 2024

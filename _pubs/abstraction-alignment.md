@@ -21,7 +21,10 @@ links:
     url: "https://vis.mit.edu/abstraction-alignment/"
   - name: Video
     icon: video
-    url: "https://www.youtube.com/watch?v=b8flyUcQc4Q"
+    url: "https://youtu.be/cLi93F6pEl0"
+  - name: Preview
+    icon: video
+    url: "https://youtu.be/b8flyUcQc4Q"
   - name: Code
     icon: code
     url: "https://github.com/mitvis/abstraction-alignment"

@@ -370,6 +370,11 @@ title: CV
                     {% endfor %}
                 </p>
                 <p class='context'>{{course.description}}</p>
+                <div class='context links'>
+                    {% for link in course.links %}
+                        <a href="{{link.url}}">{{site.data.icons[link.icon]}} {{link.name}}</a>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     {% endfor %}

@@ -44,7 +44,7 @@ layout: home
 <div id='news' class='section'>
   <h2 class='section-title'>News</h2>
   {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
-  {% for news in sorted_news %}
+  {% for news in sorted_news limit:7%}
     <div class='news'>
       <div class='news-date'>{{news.date | date: "%B %-d, %Y"}}</div>
       <div class='news-title'>{{news.title}} {{site.data.icons[news.icon]}}</div>

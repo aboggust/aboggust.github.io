@@ -1,3 +1,14 @@
+- name: "CSCI 1302: Introduction to Sociotechnical Systems and HCI"
+  role: "Guest Lecturer: AI Interpretability"
+  professors:
+    - harinisuresh
+    - dianafreed
+  semester: Spring 2025
+  description: Developed and delivered a guest lecture on interpretability and how it shapes our relationship with AI systems.
+  links:
+    - name: Slides
+      url: https://drive.google.com/file/d/13nvmBKvH0_kxGklZnO6jZrIBRu_kmwWv/view?usp=sharing
+      icon: slides
 - name: "6.009: Fundamentals of Programming"
   role: Graduate Teaching Assistant
   professors:
@@ -7,6 +18,7 @@
     - adamhartz
   semester: Spring 2020
   description: Taught fundamental programming concepts in Python to 400 students, in-person and remotely. Led a team of over 100 undergraduate TAs to conduct daily office hours.
+
 - name: "6.009: Fundamentals of Programming"
   role: Graduate Teaching Assistant
   professors:

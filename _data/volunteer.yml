@@ -2,8 +2,8 @@
   role: Educational Counsellor
   start: 2019-09-01 # not sure of exact day and month
   description: Interview prospective undergraduate students on behalf of the Admissions Committee to provide additional context about the applicants and answer questions about MIT.
-- name: Academics for the Future of Science
-  role: Founder and President
-  start: 2015-01-01 # not sure of exact day and month
-  end: 2015-12-31 # not sure of exact day and month
-  description: Founded an MIT student group focused on fundraising and publicity initiatives to promote government funding for science and technology. Created a web-based tool allowing citizens to easily write to congress expressing their concerns.
+# - name: Academics for the Future of Science
+#   role: Founder and President
+#   start: 2015-01-01 # not sure of exact day and month
+#   end: 2015-12-31 # not sure of exact day and month
+#   description: Founded an MIT student group focused on fundraising and publicity initiatives to promote government funding for science and technology. Created a web-based tool allowing citizens to easily write to congress expressing their concerns.

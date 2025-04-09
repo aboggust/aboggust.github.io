@@ -60,3 +60,6 @@ cvpr:
 tvcg:
   full: IEEE Transactions on Visualization and Computer Graphics (TVCG)
   short: TVCG
+chi-heal:
+  full: Human-centered Evaluation and Auditing of Language Models (HEAL) Workshop at ACM Human Factors in Computing Systems (CHI)
+  short: HEAL@CHI

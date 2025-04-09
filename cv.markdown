@@ -26,20 +26,30 @@ title: CV
         --section-content-width: calc(var(--section-width) - var(--section-date-width));
     }
 
-    @page {
+    /* @page {
         size: var(--page-width) var(--page-height); 
         margin: var(--margin);
-    }
+    } */
 
     html { 
-        margin: 0in;
+        margin: 0;
+        width: 100%;
     }
 
-    body { 
+    body {
+        width: 100%;
+        margin: 0;
         font-family: 'Roboto', sans-serif;
         font-size: var(--font-size);
         color: #000000;
-        margin: 0;
+    }
+
+    /* Screen-specific styles */
+    @media screen {
+        #cv {
+            max-width: calc(var(--page-width) + var(--margin));
+            margin: 3em 0;
+        }
     }
 
     .award i {
@@ -47,6 +57,7 @@ title: CV
         font-weight: 900;
         display: inline-block;
     }
+
 </style>
 
 

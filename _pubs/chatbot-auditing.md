@@ -1,5 +1,5 @@
 ---
-title: "Chatbot Auditing and Evaluation Is (Sometimes) Ill-Posed: An Argument for LLM-Guided Prompt Evaluation"
+title: "Chatbot Evaluation Is (Sometimes) Ill-Posed: Contextualization Errors in the Human-Interface-Model Pipeline"
 authors:
   - key: aspenhopkins
     equal: true

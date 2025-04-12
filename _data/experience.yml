@@ -6,7 +6,7 @@
   mentors: 
     - arvindsatya
   startdate: 2020-09-01
-  description: Investigating methods to interpret and visualize machine learning model behavior and uncertainty.
+  description: Investigating methods to expose and communicate the human-alignment of AI systems.
 
 - organization: Massachusetts Institute of Technology
   type: academic
@@ -18,7 +18,7 @@
     - daveharwath
   startdate: 2018-06-01
   enddate: 2020-06-01
-  description: Explored self-supervised machine learning methods capable of learning semantic concepts from unlabeled instructional videos.
+  description: Built self-supervised machine learning models capable of learning semantic concepts from unlabeled instructional videos.
 
 - organization: Massachusetts Institute of Technology
   type: academic
@@ -30,7 +30,7 @@
     - tukaalhanai
   startdate: 2016-06-01
   enddate: 2018-06-01
-  description: Applied deep learning and regression techniques to detect early stage Alzheimer’s Disease and clinical depression from patient speech.
+  description: Applied machine learning techniques to detect early stage Alzheimer’s Disease and clinical depression from patient speech.
 
 - organization: Leiden University
   type: academic
@@ -41,7 +41,7 @@
     - siegfriednijssen
   startdate: 2016-01-01
   enddate: 2016-01-31
-  description: Investigated decision tree models to predict a patient’s blood transfusion need from clinical time-series data to assist ICU physicians in making patient-care decisions.
+  description: Developed clinical machine learning models to assist ICU physicians in estimating patients' blood transfusion needs.
 
 - organization: Massachusetts Institute of Technology
   type: academic
@@ -52,7 +52,7 @@
     - christinglorioso
   startdate: 2015-05-15
   enddate: 2016-01-01
-  description: Designed statistical models and data visualizations to investigate correlations between gene expression and the onset of Alzheimer’s Disease.
+  description: Investigated correlations between gene expression and the onset of Alzheimer’s Disease via computational methods.
 
 - organization: Apple
   type: industry
@@ -65,7 +65,7 @@
     - dominikmoritz
   startdate: 2023-05-22
   enddate: 2023-09-29
-  description: Designed visual analytics tools to help model compression engineers and researchers evaluate, monitor, and improve their model compression strategies.
+  description: Designed visual analytics tools to help model compression engineers evaluate and improve their model compression strategies.
 
 - organization: IBM Research
   type: industry
@@ -75,7 +75,7 @@
     - hendrikstrobelt
   startdate: 2022-05-23
   enddate: 2022-08-12
-  description: Researched visual and algorithmic methods to communicate machine learning model uncertainty to human stakeholders.
+  description: Investigated visual and algorithmic methods to communicate machine learning model uncertainty to human stakeholders.
 
 - organization: IBM Research
   type: industry
@@ -85,7 +85,7 @@
     - hendrikstrobelt
   startdate: 2021-05-24
   enddate: 2021-08-13
-  description: Synthesized a framework to analyze, compare, and document saliency methods.
+  description: Synthesized a framework to document, compare, and communicate how model explanations perform across domains.
 
 - organization: IBM Research
   type: industry

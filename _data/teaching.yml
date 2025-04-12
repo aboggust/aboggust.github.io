@@ -1,3 +1,12 @@
+- name: "6.C85[J]: Interactive Data Visualization and Society"
+  role: "Guest Lecturer: AI Interpretability"
+  professors:
+    - catherinedignazio
+    - crystallee
+    - arvindsatya
+  semester: Spring 2025
+  description: Guest lectured on the role of visualization in making AI interpretability understandable, accessible, and actionable.
+
 - name: "CSCI 1302: Introduction to Sociotechnical Systems and HCI"
   role: "Guest Lecturer: AI Interpretability"
   professors:
@@ -9,6 +18,7 @@
     - name: Slides
       url: https://drive.google.com/file/d/13nvmBKvH0_kxGklZnO6jZrIBRu_kmwWv/view?usp=sharing
       icon: slides
+
 - name: "6.009: Fundamentals of Programming"
   role: Graduate Teaching Assistant
   professors:

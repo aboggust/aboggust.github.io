@@ -337,7 +337,7 @@ title: CV
 </div>
 
 <div id='awards' class='cv-section'>
-    <div class='cv-section-heading'>AWARDS</div>
+    <div class='cv-section-heading'>AWARDS & GRANTS</div>
     <div class='cv-section-content'>
     {% assign sorted_awards = site.data.awards | sort: 'date' | reverse %}
     {% assign last_year = "" %}

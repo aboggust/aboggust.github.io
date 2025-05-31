@@ -1,5 +1,5 @@
 ---
-title: "What is a Fair Diffusion Model? Designing Generative Text-To-Image Models to Incorporate Various Worldviews"
+title: "DiffusionWorldViewer: Exposing and Broadening the Worldview Reflected by Generative Text-to-Image Models"
 authors:
   - key: zoedesimone
   - key: angieboggust

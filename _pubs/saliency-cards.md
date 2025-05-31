@@ -17,7 +17,7 @@ links:
     url: "https://vis.csail.mit.edu/pubs/saliency-cards/"
   - name: Paper
     icon: paper
-    url: "https://dl.acm.org/doi/pdf/10.1145/3593013.3593997"
+    url: "https://arxiv.org/pdf/2206.02958"
   - name: Video
     icon: video
     url: "https://www.youtube.com/watch?v=T7PtxyqRADE"

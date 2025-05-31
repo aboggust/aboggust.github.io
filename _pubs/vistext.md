@@ -16,7 +16,7 @@ links:
     url: "https://vis.csail.mit.edu/pubs/vistext/"
   - name: Paper
     icon: paper
-    url: "https://aclanthology.org/2023.acl-long.401.pdf"
+    url: "https://arxiv.org/pdf/2307.05356"
   - name: Video
     icon: video
     url: "https://www.youtube.com/watch?v=Ygyw6AQIPUo"

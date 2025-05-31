@@ -17,7 +17,7 @@ links:
     url: "https://vis.csail.mit.edu/pubs/embedding-comparator/"
   - name: Paper
     icon: paper
-    url: "https://dl.acm.org/doi/pdf/10.1145/3490099.3511122"
+    url: "https://arxiv.org/pdf/1912.04853"
   - name: Demo
     icon: demo
     url: "http://vis.csail.mit.edu/embedding-comparator/"

@@ -20,7 +20,7 @@ links:
     url: "https://avlnet.csail.mit.edu/"
   - name: Paper
     icon: paper
-    url: "https://www.isca-speech.org/archive/pdfs/interspeech_2021/rouditchenko21b_interspeech.pdf"
+    url: "https://arxiv.org/pdf/2111.04823"
   - name: Video
     icon: video
     url: "https://www.youtube.com/watch?v=cJHsSEcCRYs"

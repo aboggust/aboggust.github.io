@@ -16,7 +16,7 @@ links:
     url: "https://vis.csail.mit.edu/pubs/shared-interest/"
   - name: Paper
     icon: paper
-    url: "https://dl.acm.org/doi/pdf/10.1145/3491102.3501965"
+    url: "https://arxiv.org/pdf/2107.09234"
   - name: Demo
     icon: demo
     url: "http://shared-interest.csail.mit.edu/"

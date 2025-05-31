@@ -66,3 +66,6 @@ chi-heal:
 cvpr-sightsound-workshop:
   full: Computer Vision and Pattern Recognition (CVPR) Sight and Sound Workshop
   short: CVPR Sight and Sound Workshop
+uist:
+  full: ACM Symposium on User Interface Software and Technology (UIST)
+  short: UIST

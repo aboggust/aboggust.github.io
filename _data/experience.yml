@@ -97,3 +97,14 @@
   enddate: 2020-08-21
   description: Developed methods for large-scale analysis of model behavior by quantifying the relationship between model and human decision making.
 
+- organization: Apple
+  type: industry
+  group: Artificial Intelligence and Machine Learning Visualization Group
+  role: Research Intern
+  mentors:
+    - fredhohman
+    - yannickassogba
+    - donghaoren
+    - dominikmoritz
+  startdate: 2025-05-12
+  enddate: 2025-09-30

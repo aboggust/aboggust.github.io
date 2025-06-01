@@ -27,6 +27,12 @@ url: "http://angieboggust.com" # the base hostname & protocol for your site, e.g
 twitter_username: angie_boggust
 github_username: aboggust
 
+# Social Media Metadata
+social:
+  name: "Angie Boggust"
+  description: "Angie Boggust is a PhD candidate at MIT studying AI and HCI."
+  image: "/assets/imgs/people/angieboggust.jpg"
+
 collections:
   pubs:
     output: true

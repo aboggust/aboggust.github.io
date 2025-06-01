@@ -69,3 +69,6 @@ cvpr-sightsound-workshop:
 uist:
   full: ACM Symposium on User Interface Software and Technology (UIST)
   short: UIST
+visai-meetup:
+  full: Boston Visualization + AI Meetup
+  short: VIS + AI Meetup

@@ -1,39 +1,69 @@
 - title: ACL Outstanding Paper Award
   date: 2023-07-09
   description: VisText received an Outstanding Paper award at ACL 2023.
+  type: paper-award
+
 - title: IEEE CIS Graduate Student Research Grant
   date: 2022-05-17
   description: Research grant to collaborate with colleagues at the University of Konstanz.
+  type: travel-grant
+
 - title: MIT International Science and Technology Initiatives Research Grant
   date: 2022-05-26 # Date that I entered my information into the website
   description: Travel grant to collaborate with colleagues at the University of Konstanz.
+  type: travel-grant
+
 - title: CHI Best Paper Honorable Mention Award
   date: 2022-05-06
   description: Shared Interest received a Best Paper Honorable Mention award at CHI 2022.
+  type: paper-award
+
 - title: SIGCHI Gary Marsden Travel Award
   date: 2022-04-13
   description: Funding to attend the ACM Conference on Human Factors in Computing Systems (CHI) 2022.
+  type: travel-grant
+
 - title: IUI Best Paper Honorable Mention Award
   date: 2022-03-22
   description: The Embedding Comparator received a Best Paper Honorable Mention award at IUI 2022.
+  type: paper-award
+
 - title: MIT John W. Jarve (1978) Fellowship
   date: 2020-09-01 # Date funding started
   description: MIT full graduate fellowship for the 2020–2021 academic year.
+  type: fellowship
+
 - title: Palantir Women in Technology Scholarship
   date: 2016-08-29
   description: Awarded $5,000 based on academic and research excellence. Selected as one of ten finalists out of 3000 applicants.
+  type: scholarship
+
 - title: Johnson & Johnson Scholar
   date: 2016-05-25
   description: Awarded $5,280 for outstanding undergraduate research. Selected as one of 18 scholars from MIT’s summer undergraduate researchers.
+  type: research-grant
+
 - title: MIT International Science and Technology Initiatives Research Grant
   date: 2015-07-02 # Date we informed MISTI of our appointment
   description: Travel grant to research medical applications of time-series modeling at Leiden University.
+  type: travel-grant
+
 - title: Apple Scholars in AIML PhD Fellowship
   date: 2024-03-11
   description: Full graduate fellowship for the 2024–2026 academic years.
+  type: fellowship
+
 - title: MIT Grant Writing Training Certificate
   date: 2024-04-25
   description: Completed a 4-session grant writing training program.
+  type: certificate
+
 - title: NDIF 405B Pilot Program
   date: 2025-01-10
   description: Research project selected for access to Llama 405B through NDIF.
+  type: research-grant
+
+- title: MIT Research Mentoring Certificate
+  date: 2025-06-23
+  description: Completed a 3-session mentoring workshop.
+  type: certificate

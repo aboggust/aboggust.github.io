@@ -31,7 +31,7 @@ github_username: aboggust
 social:
   name: "Angie Boggust"
   description: "Angie Boggust is a PhD candidate at MIT studying AI and HCI."
-  image: "/assets/imgs/people/angieboggust.jpg"
+  image: "/assets/imgs/people/angieboggust-social.jpg"
 
 collections:
   pubs:

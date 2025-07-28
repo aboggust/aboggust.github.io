@@ -304,6 +304,9 @@ title: CV
                 {% else %}
                     {{instance.venue}}
                 {% endif %}
+                {% if instance.url %}
+                    | <a href="{{ instance.url }}">{{ site.data.icons["recording"] }} Talk</a>
+                {% endif %}
                 </div>
             </div>
             {% endfor %}

@@ -6,10 +6,12 @@
   talks:
     - venue: chi
       date: 2025-04-28
+      url: https://www.youtube.com/watch?v=cLi93F6pEl0
 - title: Compress and Compare
   talks:
     - venue: vis
       date: 2024-10-17
+      url: https://www.youtube.com/watch?v=ESst2nxcXuA&t=3210s
     - venue: Apple
       date: 2024-08-21
 - title: How mechanistic interpretability can help keep AI safe and beneficial
@@ -22,6 +24,7 @@
       date: 2023-07-01 # Not sure of the day
     - venue: facct
       date: 2023-06-12
+      url: https://www.youtube.com/watch?v=T7PtxyqRADE
     - venue: Apple
       date: 2023-06-01 # Not sure of the day
 - title: Human-Aligned Machine Learning
@@ -37,6 +40,7 @@
       url: https://vimeo.com/725696608/7f5004019f
     - venue: chi
       date: 2022-05-06
+      url: https://www.youtube.com/watch?v=1SSgr96nBDc
     - venue: neurips-demo
       date: 2020-12-08
     - venue: visxai
@@ -45,5 +49,6 @@
   talks:
     - venue: iui
       date: 2022-03-22
+      url: https://www.youtube.com/watch?v=xpBdjzsDT3g
     - venue: CSAIL-MSR Trustworthy and Robust AI Workshop
       date: 2019-11-01 # Not sure of the day

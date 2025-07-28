@@ -10,6 +10,7 @@ type: conference
 date: 2022-05-06
 doi: 10.1145/3491102.3501965
 award: "Best Paper Honorable Mention"
+first_author: true
 links:
   - name: Project
     icon: project

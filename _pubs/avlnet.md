@@ -21,6 +21,7 @@ venue: interspeech
 type: conference
 date: 2021-08-30
 doi: 10.21437/Interspeech.2021-1312
+first_author: true
 links:
   - name: Project
     icon: project

@@ -8,6 +8,7 @@ authors:
 venue: visxai
 type: workshop
 date: 2020-10-26
+first_author: true
 links:
   - name: Project
     icon: project

@@ -15,6 +15,7 @@ authors:
 venue: cvpr-sightsound-workshop
 type: workshop
 date: 2019-06-17
+first_author: true
 links:
   - name: Paper
     icon: paper

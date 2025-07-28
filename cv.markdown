@@ -204,87 +204,96 @@ title: CV
     </div>
 </div>
 
-
 <div id='publications' class='cv-section'>
-    <div class='cv-section-heading'>PUBLICATIONS</div>
-    <div class='cv-section-content'>
+  <div class='cv-section-heading'>PUBLICATIONS</div>
+  <div class='cv-section-content'>
     {% assign sorted_pubs = site.pubs | sort: 'date' | reverse %}
-    {% assign last_year = "" %}
-    {% for pub in sorted_pubs %}
-    {% if pub.type == 'conference' %}
-    {% assign current_year = pub.date | date: "%Y" %}
-        <div class='entry'>
+    {% assign grouped_by_year = sorted_pubs | group_by_exp: "pub", "pub.date | date: '%Y'" %}
+    {% for year_group in grouped_by_year %}
+      {% assign first_author_pubs = year_group.items | where: "first_author", true %}
+      {% assign non_first_author_pubs = year_group.items | where_exp: "item", "item.first_author != true" %}
+      {% assign year_pubs = first_author_pubs | concat: non_first_author_pubs %}
+      {% assign printed_year = false %}
+      {% for pub in year_pubs %}
+        {% if pub.type == 'conference' or pub.type == 'preprint'%}
+          <div class='entry'>
             <div class='date'>
-                {% if current_year != last_year %}
-                <div>{{pub.date | date: "%Y"}}</div>
-                {% assign last_year = current_year %}
-                {% endif %}
+              {% unless printed_year %}
+                <div>{{ pub.date | date: "%Y" }}</div>
+                {% assign printed_year = true %}
+              {% endunless %}
             </div>
             <div class='content'>
-                <p class='title'>{{pub.title}}</p>
-                <p class='context'>
+              <p class='title'>{{ pub.title }}</p>
+              <p class='context'>
                 {% for author in pub.authors %}
-                    {% assign person = site.data.people[author.key] %}
-                    <a class='publication-author' style="{% if person.name == 'Angie Boggust' %} font-weight: bold {% endif %}" href="{{person.url}}">{{person.name}}{% if author.equal %}*{% endif %}</a>{% unless forloop.last %}
-                    <span class='publication-author'> • </span>
-                    {% endunless %}
+                  {% assign person = site.data.people[author.key] %}
+                  <a class='publication-author' style="{% if person.name == 'Angie Boggust' %} font-weight: bold {% endif %}" href="{{ person.url }}">{{ person.name }}{% if author.equal %}*{% endif %}</a>{% unless forloop.last %}
+                  <span class='publication-author'> • </span>
+                  {% endunless %}
                 {% endfor %}
-                </p>
-                <p class='context'>{{site.data.venues[pub.venue].full}} {{pub.date | date: "%Y"}}</p>
-                <div class='context links'>
+              </p>
+              <p class='context'>{{ site.data.venues[pub.venue].full }} {{ pub.date | date: "%Y" }}</p>
+              <div class='context links'>
                 {% for link in pub.links %}
-                    <a href="{{link.url}}">{{site.data.icons[link.icon]}} {{link.name}}</a>
+                  <a href="{{ link.url }}">{{ site.data.icons[link.icon] }} {{ link.name }}</a>
                 {% endfor %}
-                </div>
-                {% if pub.award %}
-                <p class='context award'>{{site.data.icons['award']}} {{pub.award}}</p>
-                {% endif %}
+              </div>
+              {% if pub.award %}
+                <p class='context award'>{{ site.data.icons['award'] }} {{ pub.award }}</p>
+              {% endif %}
             </div>
-        </div>
-    {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
-    </div>
+  </div>
 </div>
 
 <div id='workshops' class='cv-section'>
     <div class='cv-section-heading'>WORKSHOPS & DEMOS</div>
     <div class='cv-section-content'>
     {% assign sorted_pubs = site.pubs | sort: 'date' | reverse %}
-    {% assign last_year = "" %}
-    {% for pub in sorted_pubs %}
-    {% if pub.type == 'workshop' or pub.type == 'demo' %}
-    {% assign current_year = pub.date | date: "%Y" %}
-        <div class='entry'>
+    {% assign grouped_by_year = sorted_pubs | group_by_exp: "pub", "pub.date | date: '%Y'" %}
+    {% for year_group in grouped_by_year %}
+      {% assign first_author_pubs = year_group.items | where: "first_author", true %}
+      {% assign non_first_author_pubs = year_group.items | where_exp: "item", "item.first_author != true" %}
+      {% assign year_pubs = first_author_pubs | concat: non_first_author_pubs %}
+      {% assign printed_year = false %}
+      {% for pub in year_pubs %}
+        {% if pub.type == 'workshop' or pub.type == 'demo' %}
+          <div class='entry'>
             <div class='date'>
-                {% if current_year != last_year %}
-                <div>{{pub.date | date: "%Y"}}</div>
-                {% assign last_year = current_year %}
-                {% endif %}
+              {% unless printed_year %}
+                <div>{{ pub.date | date: "%Y" }}</div>
+                {% assign printed_year = true %}
+              {% endunless %}
             </div>
             <div class='content'>
-                <p class='title'>{{pub.title}}</p>
-                <p class='context'>
+              <p class='title'>{{ pub.title }}</p>
+              <p class='context'>
                 {% for author in pub.authors %}
-                    {% assign person = site.data.people[author.key] %}
-                    <a class='publication-author' style="{% if person.name == 'Angie Boggust' %} font-weight: bold {% endif %}" href="{{person.url}}">{{person.name}}{% if author.equal %}*{% endif %}</a>{% unless forloop.last %}
-                    <span class='publication-author'> • </span>
-                    {% endunless %}
+                  {% assign person = site.data.people[author.key] %}
+                  <a class='publication-author' style="{% if person.name == 'Angie Boggust' %} font-weight: bold {% endif %}" href="{{ person.url }}">{{ person.name }}{% if author.equal %}*{% endif %}</a>{% unless forloop.last %}
+                  <span class='publication-author'> • </span>
+                  {% endunless %}
                 {% endfor %}
-                </p>
-                <p class='context'>{{site.data.venues[pub.venue].full}} {{pub.date | date: "%Y"}}</p>
-                <div class='context links'>
+              </p>
+              <p class='context'>{{ site.data.venues[pub.venue].full }} {{ pub.date | date: "%Y" }}</p>
+              <div class='context links'>
                 {% for link in pub.links %}
-                    <a href="{{link.url}}">{{site.data.icons[link.icon]}} {{link.name}}</a>
+                  <a href="{{ link.url }}">{{ site.data.icons[link.icon] }} {{ link.name }}</a>
                 {% endfor %}
-                </div>
-                {% if pub.award %}
-                <p class='context award'>{{site.data.icons['award']}} {{pub.award}}</p>
-                {% endif %}
+              </div>
+              {% if pub.award %}
+                <p class='context award'>{{ site.data.icons['award'] }} {{ pub.award }}</p>
+              {% endif %}
             </div>
-        </div>
-    {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
-    </div>
+  </div>
 </div>
 
 

@@ -62,10 +62,6 @@
         margin-left: calc(var(--section-date-width) + var(--sm-padding));
     }
     
-    .cv-section {
-        // width: 8.5in;
-    }
-    
     .entry { 
         padding-bottom: var(--sm-padding);
         page-break-inside: avoid;
@@ -171,10 +167,4 @@
     #talks .title {
         margin-left: calc(var(--section-date-width) + var(--sm-padding));
     }    
-}
-
-.award i {
-    font-family: 'Font Awesome 5 Free'; /* or the correct version */
-    font-weight: 900;
-    display: inline-block;
 }

@@ -9,6 +9,7 @@ venue: chi
 type: conference
 date: 2025-04-28
 doi: 10.1145/3706598.3713406
+first_author: true
 links:
   - name: Project
     icon: project

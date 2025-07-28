@@ -10,6 +10,7 @@ authors:
 venue: chi-heal
 type: workshop
 date: 2025-04-26
+first_author: true
 links:
   - name: Paper
     icon: paper

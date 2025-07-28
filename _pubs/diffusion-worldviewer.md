@@ -8,8 +8,12 @@ authors:
 venue: arxiv
 type: preprint
 date: 2023-09-18
+first_author: false
 links:
   - name: Paper
     icon: paper
     url: "https://arxiv.org/pdf/2309.09944"
+  - name: Code
+    icon: code
+    url: https://github.com/zoedesimone/diffusionworldviewer
 ---

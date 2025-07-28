@@ -7,6 +7,7 @@ authors:
 venue: icml-ai-hci-workshop
 type: workshop
 date: 2023-07-29
+first_author: true
 links:
   - name: Paper
     icon: paper

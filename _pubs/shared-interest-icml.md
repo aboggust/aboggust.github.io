@@ -8,6 +8,7 @@ authors:
 venue: icml-hill-workshop
 type: workshop
 date: 2021-07-24
+first_author: true
 links:
   - name: Project
     icon: project

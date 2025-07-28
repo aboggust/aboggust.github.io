@@ -10,6 +10,7 @@ venue: acl
 type: conference
 date: 2023-07-09
 award: "Outstanding Paper"
+first_author: true
 links:
   - name: Project
     icon: project

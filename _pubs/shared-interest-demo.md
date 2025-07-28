@@ -8,6 +8,7 @@ authors:
 venue: neurips-demo
 type: demo
 date: 2020-12-08
+first_author: true
 links:
   - name: Project
     icon: project

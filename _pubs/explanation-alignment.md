@@ -7,6 +7,7 @@ authors:
 venue: eccv-excv
 type: workshop
 date: 2024-09-29
+first_author: false
 links:
   - name: Project
     icon: project

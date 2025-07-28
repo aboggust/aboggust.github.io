@@ -72,3 +72,6 @@ uist:
 visai-meetup:
   full: Boston Visualization + AI Meetup
   short: VIS + AI Meetup
+iccv:
+  full: International Conference on Computer Vision (ICCV)
+  short: ICCV

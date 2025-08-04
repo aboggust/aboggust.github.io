@@ -1,69 +1,102 @@
 - title: ACL Outstanding Paper Award
   date: 2023-07-09
   description: VisText received an Outstanding Paper award at ACL 2023.
-  type: paper-award
+  type: Paper Award
+  icon: award
+  link: https://2023.aclweb.org/program/best_papers/
+  highlight: true
 
 - title: IEEE CIS Graduate Student Research Grant
   date: 2022-05-17
   description: Research grant to collaborate with colleagues at the University of Konstanz.
-  type: travel-grant
+  type: Travel Grant
+  icon: plane
+  highlight: false
 
 - title: MIT International Science and Technology Initiatives Research Grant
   date: 2022-05-26 # Date that I entered my information into the website
   description: Travel grant to collaborate with colleagues at the University of Konstanz.
-  type: travel-grant
+  type: Travel Grant
+  icon: plane
+  highlight: false
 
 - title: CHI Best Paper Honorable Mention Award
   date: 2022-05-06
   description: Shared Interest received a Best Paper Honorable Mention award at CHI 2022.
-  type: paper-award
+  type: Paper Award
+  icon: award
+  link: https://programs.sigchi.org/chi/2022/program/content/68960
+  highlight: true
 
 - title: SIGCHI Gary Marsden Travel Award
   date: 2022-04-13
   description: Funding to attend the ACM Conference on Human Factors in Computing Systems (CHI) 2022.
-  type: travel-grant
+  type: Travel Grant
+  icon: plane
+  highlight: false
 
 - title: IUI Best Paper Honorable Mention Award
   date: 2022-03-22
   description: The Embedding Comparator received a Best Paper Honorable Mention award at IUI 2022.
-  type: paper-award
+  type: Paper Award
+  icon: award
+  link: https://iui.acm.org/2022/paperList.html
+  highlight: true
 
 - title: MIT John W. Jarve (1978) Fellowship
   date: 2020-09-01 # Date funding started
   description: MIT full graduate fellowship for the 2020–2021 academic year.
-  type: fellowship
+  type: PhD Fellowship
+  icon: star
+  highlight: true
 
 - title: Palantir Women in Technology Scholarship
   date: 2016-08-29
   description: Awarded $5,000 based on academic and research excellence. Selected as one of ten finalists out of 3000 applicants.
-  type: scholarship
+  type: Scholarship
+  icon: star
+  highlight: false
 
 - title: Johnson & Johnson Scholar
   date: 2016-05-25
-  description: Awarded $5,280 for outstanding undergraduate research. Selected as one of 18 scholars from MIT’s summer undergraduate researchers.
-  type: research-grant
+  description: Awarded research funding for outstanding undergraduate research. Selected as one of 18 scholars from MIT’s summer undergraduate researchers.
+  type: Scholarship
+  icon: star
+  highlight: false
 
 - title: MIT International Science and Technology Initiatives Research Grant
   date: 2015-07-02 # Date we informed MISTI of our appointment
   description: Travel grant to research medical applications of time-series modeling at Leiden University.
-  type: travel-grant
+  type: Travel Grant
+  icon: plane
+  highlight: false
 
 - title: Apple Scholars in AIML PhD Fellowship
   date: 2024-03-11
   description: Full graduate fellowship for the 2024–2026 academic years.
-  type: fellowship
+  type: PhD Fellowship
+  icon: star
+  link: https://machinelearning.apple.com/updates/apple-scholars-aiml-2024
+  highlight: true
 
 - title: MIT Grant Writing Training Certificate
   date: 2024-04-25
   description: Completed a 4-session grant writing training program.
-  type: certificate
+  type: Certificate
+  icon: certificate
+  highlight: false
 
 - title: NDIF 405B Pilot Program
   date: 2025-01-10
   description: Research project selected for access to Llama 405B through NDIF.
-  type: research-grant
+  type: Research Grant
+  icon: grant
+  link: https://ndif.us/405b.html
+  highlight: true
 
 - title: MIT Research Mentoring Certificate
   date: 2025-06-23
   description: Completed a 3-session mentoring workshop.
-  type: certificate
+  type: Certificate
+  icon: certificate
+  highlight: false

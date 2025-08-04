@@ -364,7 +364,12 @@ title: CV
             </div>
             <div class='content'>
                 <p class='title'>{{award.title}}</p>
-                <p class='context'>{{award.description}}</p>
+                <p class='context'>
+                    {{award.description}}
+                    {% if award.highlight %}
+                    <a href="{{award.link}}">{{site.data.icons[award.icon]}} {{award.type}}</a>
+                    {% endif %}
+                </p>
             </div>
         </div>
     {% endfor %}

@@ -75,3 +75,6 @@ visai-meetup:
 iccv:
   full: International Conference on Computer Vision (ICCV)
   short: ICCV
+iclr:
+  full: International Conference on Learning Representations (ICLR)
+  short: ICLR

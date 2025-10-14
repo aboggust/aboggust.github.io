@@ -1,6 +1,7 @@
 ---
 layout: home
 title: CV
+hide_header: true
 ---
 
 <style>
@@ -233,7 +234,10 @@ title: CV
                   {% endunless %}
                 {% endfor %}
               </p>
-              <p class='context'>{{ site.data.venues[pub.venue].full }} {{ pub.date | date: "%Y" }}</p>
+              <p class='context'>
+              {% if pub.underreview == true %}Under Review at{% endif %}
+                {{ site.data.venues[pub.venue].full }} {{ pub.date | date: "%Y" }}
+              </p>
               <div class='context links'>
                 {% for link in pub.links %}
                   <a href="{{ link.url }}">{{ site.data.icons[link.icon] }} {{ link.name }}</a>
@@ -367,7 +371,7 @@ title: CV
                 <p class='context'>
                     {{award.description}}
                     {% if award.highlight %}
-                    <a href="{{award.link}}">{{site.data.icons[award.icon]}} {{award.type}}</a>
+                    <a class='award' href="{{award.link}}">{{site.data.icons[award.icon]}} {{award.type}}</a>
                     {% endif %}
                 </p>
             </div>

@@ -22,5 +22,5 @@ links:
     url: https://openaccess.thecvf.com/content_CVPRW_2019/papers/Sight%20and%20Sound/Angie_W_Boggust_Grounding_Spoken_Words_in_Unlabeled_Video_CVPRW_2019_paper.pdf
   - name: Poster
     icon: poster
-    url: posters/cvpr_grounding_spoken_words_in_unlabeled_video_poster.pdf
+    url: https://angieboggust.com/posters/cvpr_grounding_spoken_words_in_unlabeled_video_poster.pdf
 ---

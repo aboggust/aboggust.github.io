@@ -15,5 +15,5 @@ links:
     url: http://vis.csail.mit.edu/pubs/shared-interest/
   - name: Poster
     icon: poster
-    url: "posters/icml_hill_sharedinterest_poster.pdf"
+    url: "https://angieboggust.com/posters/icml_hill_sharedinterest_poster.pdf"
 ---

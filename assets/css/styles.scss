@@ -40,10 +40,13 @@ $link-color-light: #eff5ff;
 $link-color-hover: #e7eef9;
 $award-color: #E7B100;
 
+$screen-width-threshold: 710px;
+
 
 html {
     --title-font-size: 32pt;
     --heading-font-size: 16pt;
+    --tag-font-size: 14pt;
     --body-font-size: 12pt;
     --accent-font-size: 11pt;
     --max-width: 950px;
@@ -58,19 +61,29 @@ html {
 
 
 /* Mobile Styles */
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: $screen-width-threshold) {
     
     html {
         --title-font-size: 20pt;
         --subtitle-font-size: 14pt;
-        --heading-font-size: 12pt;
-        --body-font-size: 12pt;
+        --heading-font-size: 11pt;
+        --body-font-size: 11pt;
         --accent-font-size: 10pt;
+        --tag-font-size: 13pt;
+        --subbody-font-size: 11pt;
+    }
+
+    #main {
+        margin-left: calc(4 * $spacing);
+        margin-right: calc(4 * $spacing);
     }
 
     body {
-        margin: 2em;
+        // margin: 2em;
     }
+}
+
+@media only screen and (max-width: 500px) {
 
     .publication {
         flex-direction: column;
@@ -96,21 +109,4 @@ html {
         width: 100%;
         height: auto;
     }
-
-    // #intro-description {
-    //     flex-direction: column-reverse;
-    // }
-
-    // #intro-headshot-wrapper {
-    //     max-width: 100px;
-    //     margin-bottom: calc(3 * $spacing);
-    // }
-
-    // #intro, #intro-description {
-    //     align-items: center;
-    // }
-
-    // .news {
-    //     grid-template-columns: 110px auto;
-    // }
 }

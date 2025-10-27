@@ -9,11 +9,7 @@
 }
 
 #intro-headshot-wrapper {
-    /* Prevent shrinking and set its basis explicitly */
     flex: 0 0 200px;   // shorthand for: flex-grow:0; flex-shrink:0; flex-basis:260px
-    /* optional: enforce a floor just in case */
-    // min-width: 200px;
-    // width: 200px;
 }
   
 #intro-text-wrapper {
@@ -89,16 +85,18 @@
     margin-bottom: calc(3 * $spacing);
     text-align: center;
     font-family: $title-font;
-    font-size: $tag-font-size;
+    font-size: var(--tag-font-size)
     // text-transform: uppercase;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: $screen-width-threshold) {
 
     #intro {
         display: flex;
         flex-wrap: wrap;
         gap: calc(3 * $spacing);
+        margin-top: calc(6 * $spacing);
+        justify-content: center;
     }
 
     .intro-links {
@@ -109,31 +107,31 @@
         display: contents;
     }
 
-    // #intro-headshot-wrapper {
-    //     max-width: none;
-    // }
-
     #intro-headshot { 
         order: 1;
-        flex: 0 0 auto;
-        min-width: 50px;
-        width: 66px;
-        // height: 66px;
+        flex: 1 1 0;
+        min-width: 80px;
+        max-width: 80px;
     }
 
     #intro-header {
         order: 2;
-        flex: 1 1 0;
-        min-width: 0;
+        flex: 1 1 240px;
+        min-width: 240px;
+        // white-space: nowrap;
     }
 
     #job-market {
-        order: 4;
+        order: 3;
         flex: 0 0 100%;
     }
 
+    #job-market p {
+        text-align: left;
+    }
+
     #intro-text {
-        order: 3;
+        order: 4;
         flex: 0 0 100%;
     }
 

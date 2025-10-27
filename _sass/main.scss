@@ -1,10 +1,14 @@
 
 body {
+    min-width: 380px;
+
 }
 
 header {
     border-bottom: 1px solid #e8e8e8d3;
     box-shadow: 0px 1px 2px #e8e8e8d3;
+    min-width: 400px;
+    width: 100%;
 }
 
 #main {
@@ -109,7 +113,7 @@ img {
 }
 
 #site-header {
-    width: 100vw;
+    // width: 100vw;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -119,8 +123,8 @@ img {
 }
 
 #site-header-content {
-    width: var(--max-width);
-    padding: calc(2 * $spacing) calc(4 * $spacing);
+    width: 90%;
+    margin: calc(2 * $spacing) calc(4 * $spacing);
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;

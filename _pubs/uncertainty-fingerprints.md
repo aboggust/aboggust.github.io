@@ -14,5 +14,5 @@ links:
     url: https://github.com/helenavasc/AI_HCI_Workshop_ICML_2023/blob/b87ed234b42e8fecb5622fddea84d1e4f77c80fa/papers/uncertainty_fingerprints_inter.pdf
   - name: Poster
     icon: poster
-    url: "http://angieboggust.com/posters/icml_ai_hci_uncertainty_fingerprints_poster.pdf"
+    url: "posters/icml_ai_hci_uncertainty_fingerprints_poster.pdf"
 ---

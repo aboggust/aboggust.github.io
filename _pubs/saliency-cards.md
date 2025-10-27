@@ -12,6 +12,7 @@ venue: facct
 type: conference
 date: 2023-06-12
 first_author: true
+featured: true
 links:
   - name: Project
     icon: project

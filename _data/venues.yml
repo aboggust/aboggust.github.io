@@ -30,12 +30,16 @@ visxai:
   short: VISxAI
 icml-ai-hci-workshop:
   full: International Conference on Machine Learning (ICML) AI & HCI Workshop
+  short: ICML AI & HCI Workshop
 icml-hill-workshop:
   full: International Conference on Machine Learning (ICML) Workshop on Human in the Loop Learning (HILL)
+  short: ICML HILL Workshop
 neurips-demo:
   full: Neural Information Processing Systems (NeurIPS) Demonstration
-cvrp-sightsound-workshop:
+  short: NeurIPS Demo
+cvpr-sightsound-workshop:
   full: Computer Vision and Pattern Recognition (CVPR) Sight and Sound Workshop
+  short: CVPR Sight and Sound Workshop
 acm:
   full: Association for Computing Machinery (ACM)
   short: ACM

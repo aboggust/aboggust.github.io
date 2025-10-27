@@ -6,9 +6,11 @@ authors:
   - key: arvindsatya
   - key: ashiawilson
 venue: arxiv
-type: preprint
+type: conference
 date: 2023-09-18
 first_author: false
+tag: update
+featured: true
 links:
   - name: Paper
     icon: paper

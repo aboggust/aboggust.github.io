@@ -13,6 +13,8 @@ venue: vis
 type: conference
 date: 2024-09-10
 first_author: true
+tag: vis
+featured: true
 links:
   - name: Project
     icon: project

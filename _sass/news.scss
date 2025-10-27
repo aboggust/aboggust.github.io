@@ -4,7 +4,7 @@
 
 .news {
     display: grid;
-    grid-template-columns: 160px auto;
+    grid-template-columns: 160px 8px auto;
     font-family: $body-font;
     font-size: var(--body-font-size);
     color: $accent-font-color;
@@ -15,7 +15,23 @@
 
 .news-date {
     color: $dark-grey-3;
+    justify-self: end;
+    align-self: center;
 }
 
 .news-title {
+    text-align: left;
+}
+
+.vertical-line {
+  background-color: #ccc;
+  width: 1.5px;
+  height: 102%; /* slightly taller than the text */
+  align-self: stretch;
+  margin: auto 0;
+  justify-self: center;
+}
+
+.news p {
+    margin: 0;
 }

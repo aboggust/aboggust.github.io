@@ -6,16 +6,18 @@ $heading-font: 'Roboto', sans-serif;
 $title-font: 'Roboto Condensed', sans-serif;
 
 $title-font-size: 32pt;
-$subtitle-font-size: 22pt;
+$subtitle-font-size: 16pt;
 $heading-font-size: 18pt;
+$tag-font-size: 14pt;
 $body-font-size: 12pt;
-$accent-font-size: 9pt;
+$subbody-font-size: 11pt;
+$accent-font-size: 10pt;
 
 $title-font-weight: 800;
 $heading-font-weight: 400;
 $body-font-weight: 400;
 
-$border-radius: 4px;
+$border-radius: 6px;
 $spacing: 4px;
 
 $img-height: 120px;
@@ -25,7 +27,7 @@ $light-grey-2: #f3f3f3;
 $light-grey-3: #eaeaea;
 $light-grey-4: #dddddd;
 $light-grey-5: #CACACA;
-$dark-grey-1: #6d6d6d;
+$dark-grey-1: #5b5b5b;
 $dark-grey-2: #3D3E41;
 $dark-grey-3: #a5a5a5;
 
@@ -33,15 +35,18 @@ $background-color: white;
 $primary-font-color: black;
 $accent-font-color: $dark-grey-1;
 
-$link-color: #588ad1ff;
+$link-color: #7393c4;
+$link-color-light: #eff5ff;
+$link-color-hover: #e7eef9;
 $award-color: #E7B100;
 
 
 html {
     --title-font-size: 32pt;
-    --heading-font-size: 18pt;
-    --body-font-size: 13pt;
+    --heading-font-size: 16pt;
+    --body-font-size: 12pt;
     --accent-font-size: 11pt;
+    --max-width: 950px;
 }
 
 
@@ -67,29 +72,45 @@ html {
         margin: 2em;
     }
 
-    .section {
-    }
-
     .publication {
         flex-direction: column;
         row-gap: calc(2 * $spacing);
         align-items: center;
+        width: 100%;
     }
 
-    #intro-description {
-        flex-direction: column-reverse;
+    #publications {
+        row-gap: calc(8 * $spacing);
+        // margin-top: calc(4 * $spacing);
     }
 
-    #intro-headshot-wrapper {
-        max-width: 218px;
-        margin-bottom: calc(3 * $spacing);
+    #publications:nth-child(2) {
+        margin-top: -30px;
     }
 
-    #intro, #intro-description {
-        align-items: center;
+    .publication-image {
+        width: 100%;
     }
 
-    .news {
-        grid-template-columns: 110px auto;
+    .publication-img {
+        width: 100%;
+        height: auto;
     }
+
+    // #intro-description {
+    //     flex-direction: column-reverse;
+    // }
+
+    // #intro-headshot-wrapper {
+    //     max-width: 100px;
+    //     margin-bottom: calc(3 * $spacing);
+    // }
+
+    // #intro, #intro-description {
+    //     align-items: center;
+    // }
+
+    // .news {
+    //     grid-template-columns: 110px auto;
+    // }
 }

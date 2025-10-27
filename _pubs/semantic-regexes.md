@@ -12,6 +12,7 @@ underreview: true
 type: conference
 date: 2026-04-23
 first_author: true
+featured: true
 links:
   - name: Paper
     icon: paper

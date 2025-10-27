@@ -3,6 +3,15 @@
 {% include head.html %}
 {% include google_analytics.html %}
 <body>
+    {% unless page.hide_header %}
+    {% include nav.html %}
+    <div id='main'>
+    {% endunless %}
+    
     {{ content }}
+
+    {% unless page.hide_header %}
+    </div>
+    {% endunless %}
 </body>
 </html>

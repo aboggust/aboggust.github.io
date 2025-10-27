@@ -43,6 +43,9 @@ hide_header: true
         font-family: 'Roboto', sans-serif;
         font-size: var(--font-size);
         color: #000000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     /* Screen-specific styles */
@@ -61,7 +64,6 @@ hide_header: true
 
 </style>
 
-
 <div id='cv'>
  <div id='personal-info'>
     <div id='name'>
@@ -72,7 +74,7 @@ hide_header: true
         <div><a href="mailto:aboggust@csail.mit.edu">aboggust@csail.mit.edu</a></div>
         <div><a href="http://angieboggust.com">angieboggust.com</a></div>
         <div><a href="{{site.data.links['twitter'].url}}">@angie_boggust</a></div>
-        <div class="address">32-G816, 32 Vassar St. Cambridge, MA 02139</div>
+        <div class="address">32-G714, 32 Vassar St. Cambridge, MA 02139</div>
     </div>
 </div>
 <div id='education' class='cv-section'>

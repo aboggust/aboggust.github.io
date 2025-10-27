@@ -1,0 +1,10 @@
+<header id='site-header'>
+    <div id='site-header-content'>
+        <a id='site-header-title' href="/">Angie Boggust</a>
+        <nav id='site-nav'>
+            {% for item in site.data.navigation %}
+                <a class='{% if page.url contains item.link %}active{% endif %}' href="{{ item.link }}">{{ item.name }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+</header>

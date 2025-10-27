@@ -1,0 +1,6 @@
+- name: "Research Statement"
+  type: research
+  link: /research_statement.pdf
+- name: "Teaching Statement"
+  type: teaching
+  link: /teaching_statement.pdf

@@ -1,36 +1,13 @@
 - organization: Massachusetts Institute of Technology
   type: academic
-  group: Visualization Group
-  lab: Computer Science and Artificial Intelligence Laboratory
-  role: Research Assistant
-  mentors: 
-    - arvindsatya
-  startdate: 2020-09-01
-  description: Investigating methods to expose and communicate the human-alignment of AI systems.
-
-- organization: Massachusetts Institute of Technology
-  type: academic
-  group: Spoken Language Systems Group
-  lab: Computer Science and Artificial Intelligence Laboratory
-  role: Research Assistant
-  mentors: 
-    - jimglass
-    - daveharwath
-  startdate: 2018-06-01
-  enddate: 2020-06-01
-  description: Built self-supervised machine learning models capable of learning semantic concepts from unlabeled instructional videos.
-
-- organization: Massachusetts Institute of Technology
-  type: academic
-  group: Spoken Language Systems Group
-  lab: Computer Science and Artificial Intelligence Laboratory
+  group: Paul F. Glenn Center for Biology of Aging Research
   role: Undergraduate Researcher
-  mentors: 
-    - jimglass
-    - tukaalhanai
-  startdate: 2016-06-01
-  enddate: 2018-06-01
-  description: Applied machine learning techniques to detect early stage Alzheimer’s Disease and clinical depression from patient speech.
+  mentors:
+    - leonardguarente
+    - christinglorioso
+  startdate: 2015-05-15
+  enddate: 2016-01-01
+  description: Applied computational methods to identify correlations between human gene expression and the onset of Alzheimer's disease. 
 
 - organization: Leiden University
   type: academic
@@ -45,47 +22,38 @@
 
 - organization: Massachusetts Institute of Technology
   type: academic
-  group: Paul F. Glenn Center for Biology of Aging Research
+  group: Spoken Language Systems Group
+  lab: Computer Science and Artificial Intelligence Laboratory
   role: Undergraduate Researcher
-  mentors:
-    - leonardguarente
-    - christinglorioso
-  startdate: 2015-05-15
-  enddate: 2016-01-01
-  description: Investigated correlations between gene expression and the onset of Alzheimer’s Disease via computational methods.
+  mentors: 
+    - jimglass
+    - tukaalhanai
+  startdate: 2016-06-01
+  enddate: 2018-06-01
+  description: Applied machine learning techniques to detect early stage Alzheimer’s Disease and clinical depression from patient speech.
 
-- organization: Apple
-  type: industry
-  group: Artificial Intelligence and Machine Learning Visualization Group
-  role: Research Intern
-  mentors:
-    - fredhohman
-    - yannickassogba
-    - donghaoren
-    - dominikmoritz
-  startdate: 2023-05-22
-  enddate: 2023-09-29
-  description: Designed visual analytics tools to help model compression engineers evaluate and improve their model compression strategies.
+- organization: Massachusetts Institute of Technology
+  type: academic
+  group: Spoken Language Systems Group
+  lab: Computer Science and Artificial Intelligence Laboratory
+  role: Research Assistant
+  mentors: 
+    - jimglass
+    - daveharwath
+  startdate: 2018-06-01
+  enddate: 2020-06-01
+  description: Built self-supervised machine learning models capable of learning multimodal semantic concepts from unlabeled instructional videos.
 
-- organization: IBM Research
-  type: industry
-  group: Visual AI Lab
-  role: Research Intern
-  mentors:
-    - hendrikstrobelt
-  startdate: 2022-05-23
-  enddate: 2022-08-12
-  description: Investigated visual and algorithmic methods to communicate machine learning model uncertainty to human stakeholders.
+- organization: Massachusetts Institute of Technology
+  type: academic
+  group: Visualization Group
+  lab: Computer Science and Artificial Intelligence Laboratory
+  role: Research Assistant
+  mentors: 
+    - arvindsatya
+  startdate: 2020-09-01
+  description: Investigating methods that allow human stakeholders to estimate, measure, and shape the human-alignment of AI systems.
 
-- organization: IBM Research
-  type: industry
-  group: Visual AI Lab
-  role: Research Intern
-  mentors:
-    - hendrikstrobelt
-  startdate: 2021-05-24
-  enddate: 2021-08-13
-  description: Synthesized a framework to document, compare, and communicate how model explanations perform across domains.
 
 - organization: IBM Research
   type: industry
@@ -95,7 +63,27 @@
     - hendrikstrobelt
   startdate: 2020-05-30
   enddate: 2020-08-21
-  description: Developed methods for large-scale analysis of model behavior by quantifying the relationship between model and human decision making.
+  description: Developed interpretability methods for large-scale analysis of machine learning model behavior by quantifying the alignment between model and human decision-making.
+
+- organization: IBM Research
+  type: industry
+  group: Visual AI Lab
+  role: Research Intern
+  mentors:
+    - hendrikstrobelt
+  startdate: 2021-05-24
+  enddate: 2021-08-13
+  description: Created a standardized evaluation framework for AI explanation methods, helping human stakeholders select an appropriate method for their domain, understand their limitations, and apply them responsibly.
+
+- organization: IBM Research
+  type: industry
+  group: Visual AI Lab
+  role: Research Intern
+  mentors:
+    - hendrikstrobelt
+  startdate: 2022-05-23
+  enddate: 2022-08-12
+  description: Investigated visualization and algorithmic methods to accurately communicate machine learning model uncertainty to human stakeholders.
 
 - organization: Apple
   type: industry
@@ -108,3 +96,17 @@
     - dominikmoritz
   startdate: 2025-05-12
   enddate: 2025-09-30
+  description: Developed an auto-interpretability method that improves human understanding of large language models' internal concepts, from simple lexical indicators to complex safety-relevant behaviors.
+
+- organization: Apple
+  type: industry
+  group: Artificial Intelligence and Machine Learning Visualization Group
+  role: Research Intern
+  mentors:
+    - fredhohman
+    - yannickassogba
+    - donghaoren
+    - dominikmoritz
+  startdate: 2023-05-22
+  enddate: 2023-09-29
+  description: Designed visual analytics tools to evaluate and optimize model compression pipelines, enabling  Apple engineers to build efficient, accurate, and responsible on-device models.

@@ -8,10 +8,10 @@ layout: home
       <p id='job-market-tag-line'><b>I'm on the academic and industry job markets!</b></p>
       <div class='statement-links'>
         {% for statement in site.data.statements %}
-          <!-- <a class='button icon-button' href="{{statement.link}}">
+          <a class='button icon-button' href="{{statement.link}}">
             <div style='width:18px'>{{site.data.icons[statement.type]}}</div>
             <div>{{statement.name}}</div>
-          </a> -->
+          </a>
         {% endfor %}
       </div>
     </div>

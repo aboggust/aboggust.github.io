@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 160px 8px auto;
     font-family: $body-font;
-    font-size: var(--body-font-size);
+    font-size: $body-font-size;
     color: $accent-font-color;
     font-weight: $body-font-weight;
     column-gap: calc(2 * $spacing);

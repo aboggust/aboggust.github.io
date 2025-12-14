@@ -9,14 +9,13 @@
 }
 
 #intro-headshot-wrapper {
-    flex: 0 0 200px;   // shorthand for: flex-grow:0; flex-shrink:0; flex-basis:260px
+    flex: 0 0 200px;
 }
   
 #intro-text-wrapper {
-    /* Let text fill the rest, but allow it to shrink and wrap instead of pushing */
     flex: 1 1 auto;
-    min-width: 0;                 // crucial so text can shrink
-    overflow-wrap: break-word;    // handles long words/URLs
+    min-width: 0;
+    overflow-wrap: break-word;
     display: flex;
     flex-direction: column;
     row-gap: calc(1.5 * $spacing);
@@ -24,8 +23,8 @@
 
 #intro-header {
     flex: 1 1 auto;
-    min-width: 0;                 // crucial so text can shrink
-    overflow-wrap: break-word;    // handles long words/URLs
+    min-width: 0;
+    overflow-wrap: break-word;
     display: flex;
     flex-direction: column;
     row-gap: calc(1.5 * $spacing);
@@ -48,14 +47,15 @@
     margin-bottom: 0;
 }
 
+#intro-text p {
+    margin-bottom: calc(3 * $spacing);
+}
+
 .intro-links {
-    // margin-top: $spacing;
     margin-bottom: $spacing;
-    // justify-content: space-between;
     .button {
         margin-right: $spacing;
     };
-
 }
 
 .statement-links {
@@ -63,6 +63,13 @@
     flex-direction: column;
     column-gap: calc(10 * $spacing);
     width: 93%;
+    font-family: $title-font;
+    margin-bottom: calc(2 * $spacing);
+    text-align: center;
+
+    a {
+        font-family: $title-font;
+    }
 }
 
 .statement-links .button {
@@ -77,6 +84,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    font-family: $title-font;
+    font-size: $body-font-size;
+    font-weight: $body-font-weight;
+    color: $accent-font-color;
 }
 
 #job-market-tag-line {
@@ -84,9 +95,12 @@
     margin-top: calc(2* $spacing);
     margin-bottom: calc(3 * $spacing);
     text-align: center;
-    font-family: $title-font;
-    font-size: var(--tag-font-size)
-    // text-transform: uppercase;
+    
+    
+    .highlight {
+        font-weight: bold;
+        font-size: $tag-font-size;
+    }
 }
 
 @media only screen and (max-width: $screen-width-threshold) {
@@ -124,10 +138,14 @@
     #job-market {
         order: 3;
         flex: 0 0 100%;
+        background-color: $link-color-light;
+        padding: 0px calc(2 * $spacing);
+        border-radius: calc(2 * $spacing);
+        box-sizing: border-box;
     }
 
     #job-market p {
-        text-align: left;
+        text-align: center;
     }
 
     #intro-text {
@@ -137,16 +155,35 @@
 
     .statement-links {
         flex-direction: row;
-        column-gap: calc(1 * $spacing);
+        column-gap: calc(4 * $spacing);
         width: 100%;
+        text-align: left;
 
-        > * {
-            font-size: 10.5pt;
+        a {
+            border: solid $link-color-light 0;
+            border-bottom-width: 1.5px;
+        }
+
+        .button {
+            width: auto;
+            padding: 0;
+            margin: 0;
         }
     }
 
     #job-market-tag-line {
         margin-bottom: calc(1 * $spacing);
+        text-align: left;
+    }
+
+    .clickable:hover {
+        border: solid $link-color 0;
+        border-bottom-width: 1.5px;
+    }
+
+    .button:hover {
+        background-color: $link-color-light;
+        cursor: auto;
     }
 
 }

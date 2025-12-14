@@ -1,6 +1,6 @@
 
 body {
-    min-width: 380px;
+    min-width: 518px;
 
 }
 
@@ -23,14 +23,14 @@ header {
 h1 {
     font-family: $title-font;
     font-weight: $title-font-weight;
-    font-size: var(--title-font-size);
+    font-size: $title-font-size;
     color: $primary-font-color;
     margin: $spacing 0;
 }
 
 h2, h3 {
     font-family: $heading-font;
-    font-size: var(--heading-font-size);
+    font-size: $heading-font-size;
     color: $primary-font-color;
     font-weight: $heading-font-weight;
     margin: $spacing 0;
@@ -38,13 +38,13 @@ h2, h3 {
 
 p, a {
     font-family: $body-font;
-    font-size: var(--body-font-size);
+    font-size: $body-font-size;
     color: $accent-font-color;
     font-weight: $body-font-weight;
 }
 
 p { 
-    margin: $spacing 0;
+    margin: calc(2 * $spacing) 0;
 }
 
 a { 

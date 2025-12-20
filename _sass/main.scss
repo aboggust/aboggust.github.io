@@ -1,7 +1,7 @@
 
 body {
-    min-width: 565px;
-
+    min-width: $min-width;
+    margin: 0;
 }
 
 header {

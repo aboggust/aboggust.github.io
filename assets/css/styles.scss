@@ -1,6 +1,8 @@
 --- 
 --- 
 
+$min-width: {{ site.min_width }}px;
+
 $body-font: 'Roboto', sans-serif;
 $heading-font: 'Roboto', sans-serif;
 $title-font: 'Roboto Condensed', sans-serif;

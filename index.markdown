@@ -22,7 +22,7 @@ layout: home
     <div id='intro-header' class='intro-item'>
       <h1 id='intro-title'>ANGIE BOGGUST</h1>
       <h2 id='intro-subtitle'>MIT PhD candidate studying HCI + AI</h2>
-      <div class='row intro-links'>
+      <div id='intro-links' class='row intro-links'>
         {% for link_dict in site.data.links %}
           {% assign link = link_dict[1] %}
           {% assign url = link.url %}
@@ -82,6 +82,13 @@ layout: home
       <div class='publication-info'>
         <div class='publication-detail'>
           <p class='publication-title'>{{pub.title}}</p>
+          <p class='publication-venue'>
+            {% if pub.underreview == true %}Under Review at{% endif %}
+            {{site.data.venues[pub.venue].full}} {{pub.date | date: "%Y"}}
+            {% if pub.award %}
+            <p class='publication-award'>{{site.data.icons['award']}} {{pub.award}}</p>
+            {% endif %}
+          </p>
           <p class='publication-authors'>
             {% for author in pub.authors %}
               {% assign person = site.data.people[author.key] %}
@@ -90,13 +97,7 @@ layout: home
               {% endunless %}
             {% endfor %}
           </p>
-          <p class='publication-venue'>
-            {% if pub.underreview == true %}Under Review at{% endif %}
-            {{site.data.venues[pub.venue].short}} {{pub.date | date: "%Y"}}
-            {% if pub.award %}
-            <p class='publication-award'>{{site.data.icons['award']}} {{pub.award}}</p>
-            {% endif %}
-          </p>
+          
         </div>
         <div class='publication-links row'>
           {% for link in pub.links %}

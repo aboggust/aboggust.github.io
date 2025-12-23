@@ -6,11 +6,15 @@
     display: grid;
     grid-template-columns: 160px 8px auto;
     font-family: $body-font;
-    font-size: $body-font-size;
+    font-size: var(--body-font-size);
     color: $accent-font-color;
     font-weight: $body-font-weight;
     column-gap: calc(2 * $spacing);
     line-height: 1.2em;
+
+    p {
+        margin: 0;
+    }
 }
 
 .news-date {
@@ -30,8 +34,4 @@
   align-self: stretch;
   margin: auto 0;
   justify-self: center;
-}
-
-.news p {
-    margin: 0;
 }

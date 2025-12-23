@@ -23,14 +23,14 @@ header {
 h1 {
     font-family: $title-font;
     font-weight: $title-font-weight;
-    font-size: $title-font-size;
+    font-size: var(--title-font-size);
     color: $primary-font-color;
     margin: $spacing 0;
 }
 
 h2, h3 {
     font-family: $heading-font;
-    font-size: $heading-font-size;
+    font-size: var(--heading-font-size);
     color: $primary-font-color;
     font-weight: $heading-font-weight;
     margin: $spacing 0;
@@ -38,7 +38,7 @@ h2, h3 {
 
 p, a {
     font-family: $body-font;
-    font-size: $body-font-size;
+    font-size: var(--body-font-size);
     color: $accent-font-color;
     font-weight: $body-font-weight;
 }
@@ -71,17 +71,20 @@ img {
 }
 
 .button {
+    display: inline-block;
     background-color: $link-color-light;
     width: fit-content;
     padding: $spacing calc($spacing * 2);
     border-radius: calc(4 * $border-radius);
     margin-right: calc($spacing * 2);
     text-align: center;
-}
+    text-decoration: none;
 
-.button:hover {
-    background-color: $link-color-hover;
-    cursor: pointer;
+    &:hover {
+        background-color: $link-color-hover;
+        cursor: pointer;
+        text-decoration: none;
+    }
 }
 
 .section {
@@ -94,7 +97,7 @@ img {
 
 .section-title {
     font-family: $title-font;
-    font-size: $subtitle-font-size;
+    font-size: var(--subtitle-font-size);
     color: $primary-font-color;
     font-weight: $title-font-weight;
     align-self: flex-start;
@@ -103,7 +106,7 @@ img {
 
 .section-subtitle {
     font-family: $title-font;
-    font-size: $body-font-size;
+    font-size: var(--body-font-size);
     color: $accent-font-color;
     font-weight: $title-font-weight;
     align-self: flex-start;
@@ -151,14 +154,14 @@ img {
 #site-header-title {
     font-family: $title-font;
     font-weight: $title-font-weight;
-    font-size: $subtitle-font-size;
+    font-size: var(--subtitle-font-size);
     color: $primary-font-color;
     text-transform: uppercase;
 }
 
 #site-nav > * {
     font-family: $title-font;
-    font-size: $tag-font-size;
+    font-size: var(--body-font-size);
     color: $accent-font-color;
     font-weight: $body-font-weight;
     padding: $spacing calc($spacing * 2);
@@ -166,12 +169,10 @@ img {
 }
 
 #site-nav > *:hover {
-    // color: $link-color;
     background-color: $light-grey-2 !important;
 }
 
 .active {
-    // font-weight: bold !important;
     background-color: $light-grey-2 !important;
 }
 

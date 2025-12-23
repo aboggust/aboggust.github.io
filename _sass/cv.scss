@@ -1,49 +1,9 @@
-// :root {
-//     --xxs-padding: 3pt;
-//     --xs-padding: 5pt;
-//     --sm-padding: 7pt;
-//     --md-padding: 15pt;
-//     --lg-padding: 20pt;
-    
-//     --accent-font-size: 9pt;
-//     --subfont-size: 10pt;
-//     --font-size: 12pt;
-//     --heading-size: 16pt;
-//     --title-size: 38pt;
-//     --line-height: var(--font-size);
-
-//     --page-width: 8.5in;
-//     --page-height: 11in;
-//     --margin: 0.5in;
-
-//     --section-date-width: 103px;
-//     --section-content-width: calc(var(--section-width) - var(--section-date-width));
-// }
-
-// @page {
-//     size: var(--page-width) var(--page-height); 
-//     margin: var(--margin);
-// }
-
-// html { 
-//     margin: 0in;
-// }
-
-// body { 
-//     font-family: 'Roboto', sans-serif;
-//     font-size: var(--font-size);
-//     color: #000000;
-//     margin: 0;
-// }
-
 #cv {
     display: flex;
     flex-direction: column;
     width: 100%;
     row-gap: 1.5em;
-}
 
-#cv {    
     p { 
         margin: 0;
         color: #000000;

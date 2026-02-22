@@ -1,8 +1,10 @@
 #cv {
-    display: flex;
-    flex-direction: column;
+    display: block;
     width: 100%;
-    row-gap: 1.5em;
+
+    .cv-section {
+        margin-bottom: 1.5em;
+    }
 
     p { 
         margin: 0;

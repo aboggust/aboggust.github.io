@@ -27,11 +27,6 @@ hide_header: true
         --section-content-width: calc(var(--section-width) - var(--section-date-width));
     }
 
-    /* @page {
-        size: var(--page-width) var(--page-height); 
-        margin: var(--margin);
-    } */
-
     html { 
         margin: 0;
         width: 100%;

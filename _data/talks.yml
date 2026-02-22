@@ -2,7 +2,8 @@
   talks:
     - venue: University of Washington
       date: 2026-02-09
-
+    - venue: Microsoft Research
+      date: 2026-02-18
 - title: Semantic Regexes for LLM Auto-Interpretability
   talks:
     - venue: Apple

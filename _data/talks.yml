@@ -2,8 +2,11 @@
   talks:
     - venue: Northeastern University Design Research Week
       date: 2026-03-19
+
 - title: Reconciling AI Representations and People's Mental Models
   talks:
+    - venue: Apple
+      date: 2026-03-18
     - venue: Microsoft Research
       date: 2026-02-18
     - venue: University of Washington
